@@ -1,0 +1,304 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header{
+    background-color: #EAC926;
+    font-family: "roboto";
+    font-size: 12px;
+    width: 100%;
+}
+body{
+    background-color: #ebebeb;
+}
+.titulares {
+    font-size: 24px;
+    text-align: center;
+}
+.precios {
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+.burger-menu{
+    text-align: center;
+  font-size: 24px;
+  width: 28px;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+main{
+    /* width: 90%; */
+    text-align: center;
+
+}
+article{
+    margin: 10px 0px;
+}
+.descripcion-producto{
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    text-align: justify;
+}
+.imagenes{
+    border: 1px solid #ebebeb;
+    padding: 15px;
+    background-color: #FFF;
+}
+.ml-lb-text {
+    color: #1259c3;
+}
+.ml-lb-bg {
+    background-color: #1259c3;
+  }
+footer{
+    text-align: center;
+}
+.titulo{
+    font-size: 2em;
+}
+.icono{
+    font-size: 2em;
+}
+.copy{
+    text-align: left;
+}
+img{
+    width:70%;
+}
+@media (min-width: 0px) {
+    .descripcion-producto{
+        display: none;
+    }
+    .login-navbar{
+        display: none;
+    }
+    .site{
+        display: none;
+    }
+    .logo{
+        width: 65%;
+    }
+    .barra-busqueda{
+        width: 35%;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .titulares{
+        width: 100%;
+    }
+}
+@media (min-width:768px){
+    .descripcion-producto{
+        display:block;
+
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .login-navbar{
+        display: block;
+    }
+    .site{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .precios{
+        width: 15%;
+    }
+    .descuetos{
+        width: 85%;
+    }
+    .logo{
+        width: 40%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .logo-envio{
+            margin: 0px;
+            padding: 0px;    
+            box-sizing: border-box;
+    }
+    .descripcion-producto > .logo-envio{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgb(1, 212, 1);
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+    }
+    .descripcion-producto{
+        position: relative;
+        background-color: #FFF;
+    }
+    .descripcion-producto{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:center;
+        width: 100%; 
+    }
+    article{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items:center; 
+        width: 40%;
+        background-color: #FFF;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .titular{
+        font-size: 20px;
+        width: 400%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .barra-busqueda{
+        width: 20%;
+    }
+    .encabezado{
+        display: flex;
+        
+    }
+}
+@media (min-width:1200px){
+    .descripcion-producto{
+        display:block;
+
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .login-navbar{
+        display: block;
+    }
+    .site{
+        display: block;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .precios{
+        width: 15%;
+    }
+    .descuetos{
+        width: 85%;
+    }
+    .logo{
+        width: 40%;
+    }
+    .banner{
+        width: 100%;
+    }
+    .logo-envio{
+            margin: 0px;
+            padding: 0px;    
+            box-sizing: border-box;
+    }
+    .descripcion-producto > .logo-envio{
+        display: block;
+        font-size: 16px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid rgb(1, 212, 1);
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 20px;
+        top: -15px;
+    }
+    .descripcion-producto{
+        position: relative;
+        background-color: #FFF;
+    }
+    .descripcion-producto{
+        display: flex;
+        flex-wrap: wrap; 
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items:center;
+        width: 100%; 
+    }
+    article{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: center;
+        align-items:center; 
+        width: 20%;
+        background-color: #FFF;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .articulos{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .titular{
+        font-size: 20px;
+        width: 400%;
+    }
+    .logo{
+        width: 50%;
+    }
+    .barra-busqueda{
+        width: 20%;
+    }
+    .encabezado{
+        display: flex;
+        
+    }
+}

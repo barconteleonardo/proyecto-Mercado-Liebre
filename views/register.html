@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="../public/css/register.css">
+</head>    
+<form action="" method="POST" class="Formulario">
+    <label for="NombreyApellido">Nombre y Apellido:</label>
+    <input type="text" name="NombreyApellido" id="NombreyApellido"> 
+    <label for="NombreUsuario">Nombre de Usuario</label>
+    <input type="text" name="NombreUsuario" id="NombreUsuario">
+    <label for="Fecha">Fecha de Nacimiento</label>
+    <input type="date" name="Fecha" id="Fecha">
+    <label for="Domicilio">Domicilio</label>
+    <input type="text" name="Domicilio" id="Domicilio">
+    <div>
+    <label for="TipoUsuario">Tipo de Usuario:</label>
+    <input type="radio" name="TipoUsuario" id="TipoUsuario" value="Comprador">Comprador
+    <input type="radio" name="TipoUsuario" id="TipoUsuario" value="Vendedor">Vendedor
+    </div>
+    <label for="Categorias">¿Que Categorias le interesa?</label>
+    <div>
+    <input type="checkbox" name="Electro" value="Electro">Electro
+    <input type="checkbox" name="Moda" value="Moda">Moda
+    <input type="checkbox" name="Hogar" value="Hogar">Hogar
+    <input type="checkbox" name="Jugueteria" value="Jugueteria">Jugueteria
+    <input type="checkbox" name="Vida Sana" value="Vida Sana">Vida Sana
+    </div>
+</form>
