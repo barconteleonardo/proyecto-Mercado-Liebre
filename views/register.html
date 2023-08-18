@@ -17,13 +17,13 @@
             crossorigin="anonymous"
             referrerpolicy="no-referrer"
         />
-        <link rel="stylesheet" href="../public/css/register.css" />
+        <link rel="stylesheet" href="/css/register.css" />
     </head>
     <body class="light-bg">
         <header class="yellow-bg header">
             <div class="container-logo-search">
                 <img
-                    src="../public/images/logo-mercado-liebre.svg"
+                    src="/images/logo-mercado-liebre.svg"
                     alt="Mercado Libre Logo"
                     class="logo"
                 />
@@ -52,7 +52,7 @@
 
                 <ul class="">
                     <li>
-                        <a href="../views/register.html"
+                        <a href="/register"
                             ><span>Creá tu cuenta</span
                             ><i class="fa-regular fa-address-card"></i
                         ></a>
@@ -263,5 +263,21 @@
                 <span> Copyright © 1999-2020 MercadoLiebre S.R.L. </span>
             </section>
         </footer>
+
+        <script>
+            const nombreUsuarioInput = document.getElementById("username");
+            const errorNombreUsuario = document.getElementById("errorUsername");
+
+            nombreUsuarioInput.addEventListener("input", () => {
+                if (nombreUsuarioInput.value.length < 2) {
+                    errorNombreUsuario.textContent =
+                        "El nombre de usuario debe tener al menos 2 caracteres.";
+                    errorNombreUsuario.style.display = "inline"; // Mostrar el mensaje de error
+                } else {
+                    errorNombreUsuario.textContent = ""; // Borrar el mensaje de error
+                    errorNombreUsuario.style.display = "none"; // Ocultar el mensaje de error
+                }
+            });
+        </script>
     </body>
 </html>
